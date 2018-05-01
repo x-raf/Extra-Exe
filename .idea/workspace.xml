@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdc445ba-b73b-402c-8d36-88a783727cf3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kodilla-Extra-Exercise.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kodilla/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kodilla/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kodilla/StringCollection.java" afterDir="false" />
-    </list>
+    <list default="true" id="bdc445ba-b73b-402c-8d36-88a783727cf3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -175,12 +164,12 @@
       <workItem from="1524945091361" duration="3174000" />
       <workItem from="1524975872809" duration="1446000" />
       <workItem from="1525028751882" duration="2802000" />
-      <workItem from="1525145783862" duration="262000" />
+      <workItem from="1525145783862" duration="525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7684000" />
+    <option name="totallyTimeSpent" value="7947000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
