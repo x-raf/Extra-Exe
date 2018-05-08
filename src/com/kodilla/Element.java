@@ -2,14 +2,12 @@ package com.kodilla;
 
 public class Element {
 
-    String value;
-    private Element next = null;
-    private Element prev = null;
+    private String value;
+    private Element next;
+    private Element prev;
 
-    public Element(String value, Element next, Element prev) {
+    public Element(String value) {
         this.value = value;
-        this.next = next;
-        this.prev = prev;
     }
 
     public String getValue() {
