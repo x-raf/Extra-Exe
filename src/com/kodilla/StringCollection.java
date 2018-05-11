@@ -38,14 +38,20 @@ public class StringCollection {
         }
         if (temp == collectionHead){
             collectionHead = collectionHead.getNext();
-            collectionHead.setPrev(null);
-        }
-        if (temp.getNext() == null){
-            temp.getPrev().setNext(null);
-        }
-        if (counter==n) {
-            temp.getPrev().setNext(temp.getNext());
-            temp.getNext().setPrev(temp.getPrev());
+            if (collectionHead != null) {
+                collectionHead.setPrev(null);
+            }
+        } else {
+            if (counter == n) {
+                if (temp.getNext() == null) {
+                    temp.getPrev().setNext(null);
+                } else {
+                    temp.getPrev().setNext(temp.getNext());
+                    temp.getNext().setPrev(temp.getPrev());
+                }
+            } else {
+                return false;
+            }
         }
         return true;
     }
